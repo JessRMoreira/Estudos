@@ -35,14 +35,14 @@ public class Temperatura {
 		}
 		
 		System.out.println("Deseja encerrar o programa?");
-		System.out.println("1. Sim");
-		System.out.println("2. Não");
+		System.out.println("0. Sim");
+		System.out.println("1. Não");
 		opcao = sc.nextInt();
-		if(opcao == 1) {
+		if(opcao == 0) {
 			continuar = false;
 			System.out.println("Fim do programa");
 		}
-		if (opcao > 2) {
+		if (opcao > 1) {
 			continuar = false;
 			System.out.println("Opção inválida. Fim do programa.");
 		}
